@@ -1,4 +1,38 @@
 'use strict';
+// import emailjs from '@emailjs/browser';
+// // script.js
+
+// // Initialize EmailJS with your user ID
+// // emailjs.init('TejaOff');
+
+// // Function to send email using EmailJS
+
+// const sendEmail = (e) => {
+//     e.preventDefault();
+//     const fullname = document.getElementById('fullname').value;
+//     const email = document.getElementById('email').value;
+//     const message = document.getElementById('message').value;
+//     const form = e.target; // Get the form element using the event object
+//     emailjs.sendForm('service_kqudx4l', 'template_5d8kar9', form, 'SKywHiYPpoWuT9Aax');
+//     then((response) => {
+//       console.log('Email sent successfully!', response);
+//       // Optionally, show a success message to the user
+//       alert('Your message has been sent successfully!');
+//       // Reset the form
+//       form.reset();
+//     }, (error) => {
+//       console.error('Error sending email:', error);
+//       // Optionally, show an error message to the user
+//       alert('Oops! Something went wrong. Please try again later.');
+//     });
+// }
+// document.querySelector('.form-btn').addEventListener('click', sendEmail);
+// // // Call the form validation function
+// // handleFormValidation();
+  
+
+// // Add event listener to the form submit button
+// document.querySelector('.form-btn').addEventListener('click', sendEmail);
 
 
 
@@ -157,3 +191,5 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
